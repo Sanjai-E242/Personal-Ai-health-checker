@@ -65,7 +65,7 @@ export default function Auth() {
           <div className="w-14 h-14 rounded-2xl gradient-health flex items-center justify-center mx-auto">
             <Activity className="w-7 h-7 text-primary-foreground" />
           </div>
-          <h1 className="text-3xl font-display font-bold text-foreground">HealthAI</h1>
+          <h1 className="text-3xl font-display font-bold text-foreground">Personal AI Health Checker</h1>
           <p className="text-muted-foreground">
             {isLogin ? "Sign in to access your health dashboard" : "Create an account to get started"}
           </p>

@@ -29,7 +29,7 @@ const Index = () => {
             <div className="w-9 h-9 rounded-lg gradient-health flex items-center justify-center">
               <Activity className="w-5 h-5 text-primary-foreground" />
             </div>
-            <span className="font-display font-bold text-lg text-foreground">HealthAI</span>
+            <span className="font-display font-bold text-lg text-foreground">Personal AI Health Checker</span>
           </button>
           <nav className="hidden sm:flex items-center gap-6 text-sm font-medium text-muted-foreground">
             <button onClick={() => setView("home")} className="hover:text-foreground transition-colors">Home</button>
